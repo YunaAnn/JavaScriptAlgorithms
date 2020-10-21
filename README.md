@@ -1,6 +1,6 @@
 # JavaScriptAlgorythms
 
 1. Name Swap
-     EXAMPLE
+     - EXAMPLE:
         'Doe Jane' -> 'Jane Doe'
         'Nowak Jan' -> 'Jan Nowak'

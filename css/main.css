@@ -1,0 +1,76 @@
+html
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body, .jumbotron
+{
+    background-color: #e2e2e2;
+}
+
+strong
+{
+    font-size: 2rem;
+}
+
+/*-----------------------------------------*/
+
+.jumbotron
+{
+    padding-bottom: 2rem;
+}
+
+.description
+{
+    padding-bottom:1.5rem;
+}
+
+/*-----------------------------------------*/
+.blue-container
+{
+    background-color: #17A2B8;
+    color: #e2e2e2;
+    padding: 3rem 0 3rem 0;
+}
+
+.algorithms
+{
+    padding-left:1.7rem;
+}
+
+.col-4,  .col-8
+{
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.blue-container h1
+{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.blue-container h6
+{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.example
+{
+    padding-bottom: .5rem;
+}
+
+.form-control:focus
+{
+    background-color: #dbdbdb;
+    border: none;
+}
+
+.btn
+{
+    border-radius: .6rem;
+}
+
+/*-----------------------------------------*/
+

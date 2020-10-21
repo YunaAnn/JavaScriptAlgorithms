@@ -6,24 +6,55 @@
     <title> JavaScript Algorithms | Menu </title>
     <!--CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"/>
 </head>
 
 <body>
 
     <div class = "container">
-
-        <h5>Write a name to swap</h5>
-        <p> EXAMPLE </p>
-        <p> 'Doe Jane' -> 'Jane Doe'</p>
-        <p> ' Nowak Jan' -> 'Jan Nowak'</p>
-
-        <input type="text" id="nameSwap" name="nameswap">
-        <button onclick="nameSwap()" type="button"> Swap! </button>
-
-        <p> RESULT </p>
-        <p id="swapNameResult"> ------------ </p>
-
+        <div class="jumbotron">
+            <h1 class="display-4"> JavaScript Algorithms </h1>
+            <p class="lead"> Algorithms: Name Swap  </p>
+            <hr class="my-4">
+            <p class="description"> By YunaAnn </p>
+            <a href="https://github.com/YunaAnn/JavaScriptAlgorithms"><button type="button" class="btn btn-info btn-lg"> Code </button></a>
+            <a href="https://github.com/YunaAnn"><button type="button" class="btn btn-outline-info btn-lg"> Github profile </button></a>
+          </div>
     </div>
+
+    <div class="blue-container">
+        <div class = "container">
+            <div class="algorithms">
+                <div class="row">
+                    <div class="col-4">
+
+                        <div class="example">
+                            <h1 class="display-4"> Name Swap </h1>
+                            <h3 class="lead"> EXAMPLE </h3>
+                            <h6> Doe Jane -> Jane Doe </h6>
+                            <h6> Nowak Jan -> Jan Nowak </h6>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-8">
+                                <input class="form-control form-control-lg" type="text" id="nameSwap" name="nameswap">
+                            </div>
+                            <div class="col-4">
+                                <button onclick="nameSwap()" class="btn btn-dark btn-lg"> Swap! </button>
+                            </div>
+                        </div>
+
+                        <p class="lead"> RESULT </p>
+                        <strong id="swapNameResult"> ------------ </strong>
+
+
+                    </div>       
+                </div>
+            </div>
+        </div>
+    </div>    
 
     <!--JS-->
     <script src="algorithms.js"></script>

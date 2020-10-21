@@ -1,7 +1,5 @@
 function nameSwap(/*str*/)
 {
-    var nameSwapString = document.getElementById("nameSwap").value;
-
     //  EXAMPLE
         // 'Doe Jane' -> 'Jane Doe'
         // 'Nowak Jan' -> 'Jan Nowak'
@@ -22,6 +20,8 @@ function nameSwap(/*str*/)
     //One line 
     //return str.split(' ').reverse().join(' ');
 
+    var nameSwapString = document.getElementById("nameSwap").value;
+    
     var nameSwapResult = nameSwapString.split(' ').reverse().join(' ');
     document.getElementById("swapNameResult").innerHTML = nameSwapResult;
 }    
