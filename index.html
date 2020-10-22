@@ -16,7 +16,7 @@
     <div class = "container">
         <div class="jumbotron">
             <h1 class="display-4"> JavaScript Algorithms </h1>
-            <p class="lead"> Algorithms: Name Swap  </p>
+            <p class="lead"> Algorithms: Name Swap, Palindrome  </p>
             <hr class="my-4">
             <p class="description"> By YunaAnn </p>
             <a href="https://github.com/YunaAnn/JavaScriptAlgorithms"><button type="button" class="btn btn-info btn-lg"> Code </button></a>
@@ -50,7 +50,33 @@
                         <strong id="swapNameResult"> ------------ </strong>
 
 
-                    </div>       
+                    </div>    
+                    
+
+                    <div class="col-8">
+
+                        <div class="example">
+                            <h1 class="display-4"> Palindrome </h1>
+                            <h3 class="lead"> EXAMPLE PALIDROMES </h3>
+                            <h6> Never odd or even </h6>
+                            <h6> Do geese see God? </h6>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-8">
+                                <input class="form-control form-control-lg" type="text" id="palindrome" name="palindrome">
+                            </div>
+                            <div class="col-4">
+                                <button onclick="palindrome()" class="btn btn-dark btn-lg"> Is palindrome? </button>
+                            </div>
+                        </div>
+
+                        <p class="lead"> RESULT (true/false) </p>
+                        <strong id="palindromeResult"> ------------ </strong>
+
+                    </div>     
+
+            
                 </div>
             </div>
         </div>
