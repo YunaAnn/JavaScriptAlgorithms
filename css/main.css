@@ -28,9 +28,11 @@ strong
 /*-----------------------------------------*/
 .blue-container
 {
-    background-color: #17A2B8;
+    background: rgb(52,82,96);
+    background: linear-gradient(90deg, rgba(52,82,96,0.9724264705882353) 0%, rgba(47,116,146,1) 24%, rgba(47,116,146,1) 42%, rgba(23,162,184,1) 71%, rgba(29,177,200,1) 100%);
     color: #e2e2e2;
     padding: 3rem 0 3rem 0;
+    margin-bottom:1rem;
 }
 
 .algorithms

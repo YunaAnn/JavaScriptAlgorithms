@@ -1,5 +1,10 @@
 # JavaScriptAlgorythms
 
+- JavaScript
+- CSS 3
+- HTML 5
+- Bootstrap
+
 1. Name Swap
      - EXAMPLE:
          1. 'Doe Jane' -> 'Jane Doe'
