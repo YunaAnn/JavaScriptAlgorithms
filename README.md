@@ -18,10 +18,17 @@
 3. Reverse String
     - EXAMPLE 
         1. cat -> tac
-        2. lovely -> ylevol
+        2. rain -> niar
 
-4. Repeat String
+4. Alphabetize String
+    - EXAMPLE 
+        1. cat -> act
+        2. rain -> ainr  
+
+5. Repeat String
     - EXAMPLE 
         1. cat, 5 -> catcatcatcatcat
-        2. rain, 4' -> rainrainrainrain        
+        2. rain, 4' -> rainrainrainrain   
+
+
 

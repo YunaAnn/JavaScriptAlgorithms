@@ -4,22 +4,24 @@ function nameSwap()
         // 'Doe Jane' -> 'Jane Doe'
         // 'Nowak Jan' -> 'Jan Nowak'
 
+    var nameSwapString = document.getElementById("nameSwap").value;
+
     /*
+    //option 1 :
     var stringToArray = nameSwapString.split(' ');
     var reverseArray = stringToArray.reverse();
     var reverseString = reverseArray.join(' ');
     document.getElementById("swapNameResult").innerHTML = reverseString;
     */
 
-    //Indexes
+    //option 2 : Indexes
     /*
     var array = nameSwapString.split(' ');
     var result = array[1] + ' ' + array[0];
     document.getElementById("swapNameResult").innerHTML = result;
     */
 
-    var nameSwapString = document.getElementById("nameSwap").value;
-    
+    //option 3 : One line
     var nameSwapResult = nameSwapString.split(' ').reverse().join(' ');
     document.getElementById("swapNameResult").innerHTML = nameSwapResult;
 }   
@@ -43,12 +45,25 @@ function palindrome()
 function reverseString()
 {   
     //EXAMPLE:
-    //1. cat, 5 -> catcatcatcatcat
-    //2. rain, 4' -> rainrainrainrain
+    //1. cat -> tac
+    //2. rain -> niar
 
     var reverseString = document.getElementById("reverseString").value;
     
     var reverseStringResult = reverseString.split('').reverse().join('');
+    
+    //option 2:
+    //var reverseStringResult = [...reverseString].reverse().join('');
+
+    //option 3 - for loop:
+    /*
+        var reverseStringResult = '';
+        for (var i = reverseString.length-1; i >= 0 ; i--)
+        {
+            reverseStringResult += reverseString; 
+        }
+    */
+
     document.getElementById("reverseStringResult").innerHTML = reverseStringResult;
 }
 
@@ -59,23 +74,23 @@ function repeatString()
     //'cat', 5 -> 'catcatcatcatcat'
     //'rain, 4' -> 'rainrainrainrain' 
 
-    var str = document.getElementById("repeatStringString").value;
-    var num = document.getElementById("repeatStringNumber").value;
+    var repeatStringString = document.getElementById("repeatStringString").value;
+    var repeatStringNumber = document.getElementById("repeatStringNumber").value;
 
     var finalString = '';
 
-    if(num <= 0)
+    if(repeatStringNumber <= 0)
     {
         finalString = ' Error. Incorrect data. ';
     }
 
     //for loop
-    for (var index = 1; index <=num; index++)
+    for (var index = 1; index <=repeatStringNumber; index++)
     {
-        finalString += str; 
+        finalString += repeatStringString; 
     }
 
-    //or while loop
+    //option 2 :  while loop
     /*
     while (num > 0) 
     {
@@ -85,6 +100,21 @@ function repeatString()
     */
 
     document.getElementById("repeatStringResult").innerHTML = finalString;
+}
+
+function alphabetizeString()
+{
+    //EXAMPLE
+    //cat -> act
+    //rain -> ainr  
+
+    var alphabetizeStr = document.getElementById("alphabetizeString").value;
+
+    var alphabetizeStrResult = alphabetizeStr.split('').sort().join('');
+    //option 2
+    //var alphabetizeStrResult = [...alphabetizeStr].sort().join('');
+
+    document.getElementById("alphabetizeStringResult").innerHTML = alphabetizeStrResult;
 }
 
 
