@@ -50,7 +50,6 @@ function reverseString()
     
     var reverseStringResult = reverseString.split('').reverse().join('');
     document.getElementById("reverseStringResult").innerHTML = reverseStringResult;
-
 }
 
 
@@ -86,7 +85,6 @@ function repeatString()
     */
 
     document.getElementById("repeatStringResult").innerHTML = finalString;
-  
 }
 
 

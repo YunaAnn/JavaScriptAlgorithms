@@ -5,7 +5,8 @@ html
 
 body, .jumbotron
 {
-    background-color: #e2e2e2;
+    background: #17A2B8;
+    color: #e2e2e2;
 }
 
 strong
@@ -25,21 +26,16 @@ strong
     padding-bottom:1.5rem;
 }
 
-/*-----------------------------------------*/
-.blue-container
+.my-4
 {
-    background: rgb(34,137,171);
-    background: radial-gradient(circle, rgba(34,137,171,1) 0%, rgba(32,132,149,1) 100%);
-    color: #e2e2e2;
-    padding: 3rem 0 3rem 0;
-    margin-bottom:1rem;
+    background-color: #e2e2e2;
 }
 
-.grey-container
+/*-----------------------------------------*/
+.white-container
 {
-    background: rgb(61,61,61);
-    background: radial-gradient(circle, rgba(61,61,61,1) 0%, rgba(61,61,61,1) 100%);
-    color: #e2e2e2;
+    background-color: #e2e2e2;
+    color: #1a1a1a;
     padding: 3rem 0 3rem 0;
     margin-bottom:1rem;
 }
@@ -54,26 +50,13 @@ strong
     margin: 1.5rem 0 1.5rem 0;
 }
 
-.blue-container h1
+.white-container h1
 {
     font-size: 3rem;
     padding-bottom: 1rem;
 }
 
-.blue-container h6
-{
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.2;
-}
-
-.grey-container h1
-{
-    font-size: 3rem;
-    padding-bottom: 1rem;
-}
-
-.grey-container h6
+.white-container h6
 {
     font-size: 1rem;
     font-weight: 500;
@@ -87,7 +70,8 @@ strong
 
 .form-control:focus
 {
-    background-color: #dbdbdb;
+    background-color:#17A2B8;
+    color:#fff;
     border: none;
 }
 
@@ -102,3 +86,10 @@ strong
 }
 
 /*-----------------------------------------*/
+.contact
+{
+	margin: -.4rem 0 1rem 1.5rem;
+}
+.contact a { color: #e2e2e2; }
+.contact a:hover { color: #fff; }
+.contact i { font-size:50px; }

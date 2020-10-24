@@ -16,11 +16,12 @@
          2. Do geese see God? 
 
 3. Reverse String
-    - EXAMPLE </h3>
+    - EXAMPLE 
         1. cat -> tac
         2. lovely -> ylevol
 
 4. Repeat String
-      -  EXAMPLE:
+    - EXAMPLE 
         1. cat, 5 -> catcatcatcatcat
-        2. rain, 4' -> rainrainrainrain
+        2. rain, 4' -> rainrainrainrain        
+
