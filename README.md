@@ -30,5 +30,10 @@
         1. cat, 5 -> catcatcatcatcat
         2. rain, 4' -> rainrainrainrain   
 
+6. Find the Longest String
+    - EXAMPLE 
+        1. Hello, what's up? -> Hello
+        2. I like trains :3 -> trains    
+
 
 

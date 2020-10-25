@@ -51,7 +51,7 @@ function reverseString()
     var reverseString = document.getElementById("reverseString").value;
     
     var reverseStringResult = reverseString.split('').reverse().join('');
-    
+
     //option 2:
     //var reverseStringResult = [...reverseString].reverse().join('');
 
@@ -115,6 +115,30 @@ function alphabetizeString()
     //var alphabetizeStrResult = [...alphabetizeStr].sort().join('');
 
     document.getElementById("alphabetizeStringResult").innerHTML = alphabetizeStrResult;
+}
+
+function findTheLongestString()
+{
+
+    //EXAMPLE
+    //Hello, what's up? -> Hello
+    //I like trains :3 -> trains  
+
+    var findTheLongestStringStr = document.getElementById("findTheLongestStringInput").value;
+
+    var noSpecialCharacters = findTheLongestStringStr.replace(/\W/g,' ');
+    var longestWord = '';
+    var wordArray = noSpecialCharacters.split(' ');
+
+    for(var i=0; i<wordArray.length; i++ )
+    {
+        if(wordArray[i].length > longestWord.length)
+        {
+            longestWord = wordArray[i];
+        }
+    }
+
+    document.getElementById("findTheLongestStringResult").innerHTML = longestWord;
 }
 
 
