@@ -35,5 +35,9 @@
         1. Hello, what's up? -> Hello
         2. I like trains :3 -> trains    
 
+7. Find Largest Element
+    - EXAMPLE 
+        1. 1,3,10,4,6,7,8 -> 10
+        2. 302,17,35,66,100,1 -> 302
 
 

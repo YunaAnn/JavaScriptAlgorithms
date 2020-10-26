@@ -86,10 +86,8 @@ strong
 }
 
 /*-----------------------------------------*/
-.contact
-{
-	margin: -.4rem 0 1rem 1.5rem;
-}
+.contact { margin: -.4rem 0 1rem 1.5rem;}
 .contact a { color: #e2e2e2; }
 .contact a:hover { color: #fff; }
 .contact i { font-size:50px; }
+.contact h4 { margin-bottom: 1.5rem;}

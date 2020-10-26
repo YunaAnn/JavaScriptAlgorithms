@@ -85,7 +85,7 @@ function repeatString()
     }
 
     //for loop
-    for (var index = 1; index <=repeatStringNumber; index++)
+    for (let index = 1; index <=repeatStringNumber; index++)
     {
         finalString += repeatStringString; 
     }
@@ -130,7 +130,7 @@ function findTheLongestString()
     var longestWord = '';
     var wordArray = noSpecialCharacters.split(' ');
 
-    for(var i=0; i<wordArray.length; i++ )
+    for(let i=0; i<wordArray.length; i++ )
     {
         if(wordArray[i].length > longestWord.length)
         {
@@ -141,4 +141,19 @@ function findTheLongestString()
     document.getElementById("findTheLongestStringResult").innerHTML = longestWord;
 }
 
+function findTheLargestElement()
+{
 
+    //EXAMPLE 
+    //1. 1,3,10,4,6,7,8 -> 10
+    //2. 302,17,35,66,100,1 -> 302
+
+    var findTheLargestElementData = document.getElementById("findTheLargestElementInput").value;
+    var largestElement = null;
+    var findTheLargestElementSplit = findTheLargestElementData.split(',');
+
+    largestElement = Math.max.apply(null,findTheLargestElementSplit);
+
+    document.getElementById("findTheLargestElementResult").innerHTML = largestElement;
+
+}  
