@@ -157,3 +157,20 @@ function findTheLargestElement()
     document.getElementById("findTheLargestElementResult").innerHTML = largestElement;
 
 }  
+
+function findTheSmallestElement()
+{
+
+    //EXAMPLE 
+    //1. 1,3,10,4,6,7,8 -> 1
+    //2. 302,17,35,66,100,1 -> 1
+
+    var findTheSmallestElementData = document.getElementById("findTheSmallestElementInput").value;
+    var smallestElement = null;
+    var findTheSmallestElementSplit = findTheSmallestElementData.split(',');
+
+    smallestElement = Math.min.apply(null,findTheSmallestElementSplit);
+
+    document.getElementById("findTheSmallestElementResult").innerHTML = smallestElement;
+
+}  

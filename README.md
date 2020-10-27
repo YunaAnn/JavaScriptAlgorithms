@@ -35,9 +35,14 @@
         1. Hello, what's up? -> Hello
         2. I like trains :3 -> trains    
 
-7. Find Largest Element
+7. Find the Largest Value
     - EXAMPLE 
         1. 1,3,10,4,6,7,8 -> 10
         2. 302,17,35,66,100,1 -> 302
+
+8. Find the Smallest Value
+    - EXAMPLE 
+        1. 1,3,10,4,6,7,8 -> 1
+        2. 302,17,35,66,100,1 -> 1      
 
 
