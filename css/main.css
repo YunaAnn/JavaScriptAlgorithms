@@ -47,7 +47,12 @@ strong
 
 .col-4, .col-8, .col-12
 {
-    margin: 1.5rem 0 1.5rem 0;
+    margin-top: 1.5rem;
+}
+
+.row
+{
+    margin-bottom:2rem;
 }
 
 .white-container h1
@@ -91,3 +96,28 @@ strong
 .contact a:hover { color: #fff; }
 .contact i { font-size:50px; }
 .contact h4 { margin-bottom: 1.5rem;}
+
+/*-----------------------------------------*/
+@media only screen and (max-width: 1200px) 
+{
+  [class*="col-"] 
+  {
+    width: 100%;
+  }
+
+  .jumbotron *
+  {
+    width: 100%;
+  }
+
+  .btn
+  {
+    width: 100%;
+  }
+
+  .contact *
+  {
+      padding: 0 0 1rem 0;
+  }
+
+ }
